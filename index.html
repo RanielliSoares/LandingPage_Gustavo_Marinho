@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo Marinho Vereador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<header class="cabecalho">
+    <section clas="menu__cabecalho">
+        <button id="button-menu">&#9776;</button>
+        <div id="menu">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="container__titulo__header">
+        <div class="container__header">
+            <h1 class="titulo__header">Gustavo <span class="titulo__amarelo__header">Marinho</span></h1>
+        </div>
+    </section>
+</header>
+
+<img src="./img/Banner.jpg" alt="">
+
+<body>
+
+</body>
+<script>
+    var menuButton = document.getElementById("button-menu");
+    var menu = document.getElementById("menu");
+
+    menuButton.addEventListener("click", function () {
+        if (menu.style.display === "block") {
+            menu.style.display = "none";
+        } else {
+            menu.style.display = "block";
+        }
+    });
+</script>
+
+</html>

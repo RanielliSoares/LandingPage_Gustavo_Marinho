@@ -1,0 +1,22 @@
+.cabecalho {
+    background-color: var(--azul-escuro);
+    padding: 1em 5px;
+    display: flex;
+    align-items: center;
+}
+
+.titulo__header {
+    color: var(--cor-de-fundo);
+    text-transform: uppercase;
+}
+.titulo__amarelo__header{
+    color: var(--azul-claro);
+}
+#menu {
+    display: none;
+  }
+#button-menu{
+    background-color: var(--azul-escuro);
+    margin-right: 30px;
+    color: var(--branco);
+}
