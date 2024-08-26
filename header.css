@@ -8,15 +8,50 @@
 .titulo__header {
     color: var(--cor-de-fundo);
     text-transform: uppercase;
+    margin: auto;
+    font-weight: 700;
+    font-size: 24px;
 }
-.titulo__amarelo__header{
+
+.titulo__amarelo__header {
     color: var(--azul-claro);
 }
+
+.menu-hamburguer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+    margin-left: 0.5em;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
 #menu {
     display: none;
-  }
-#button-menu{
     background-color: var(--azul-escuro);
-    margin-right: 30px;
-    color: var(--branco);
+    position: absolute;
+    width: 100%;
+}
+
+#menu ul li {
+    padding: 10px;
+    text-align: center;
+}
+
+#menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+.link{
+    font-weight: 400;
+    font-size: 16px;
+}
+#menu ul li a:hover {
+    background-color: #575757;
 }

@@ -10,39 +10,50 @@
 
 </head>
 <header class="cabecalho">
-    <section clas="menu__cabecalho">
-        <button id="button-menu">&#9776;</button>
-        <div id="menu">
-            <ul>
-                <li><a href="#">Opção 1</a></li>
-                <li><a href="#">Opção 2</a></li>
-                <li><a href="#">Opção 3</a></li>
-            </ul>
-        </div>
-    </section>
-    <section class="container__titulo__header">
-        <div class="container__header">
-            <h1 class="titulo__header">Gustavo <span class="titulo__amarelo__header">Marinho</span></h1>
-        </div>
-    </section>
+    <div class="menu-hamburguer" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <h1 class="titulo__header">Gustavo <span class="titulo__amarelo__header">Marinho</span></h1>
 </header>
+<section class="menu__itens">
+    <nav id="menu">
+        <ul>
+            <li><a href="#" class="link">HISTÓRIA</a></li>
+            <li><a href="#" class="link">CONQUISTAS</a></li>
+            <li><a href="#" class="link">PROJETOS</a></li>
+        </ul>
+    </nav>
+</section>
+<div class="container__header">
+
+</div>
 
 <img src="./img/Banner.jpg" alt="">
 
 <body>
+    <section>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </section>
+
 
 </body>
 <script>
-    var menuButton = document.getElementById("button-menu");
-    var menu = document.getElementById("menu");
-
-    menuButton.addEventListener("click", function () {
-        if (menu.style.display === "block") {
-            menu.style.display = "none";
+    function toggleMenu() {
+        var menu = document.getElementById('menu');
+        if (menu.style.display === 'block') {
+            menu.style.display = 'none';
         } else {
-            menu.style.display = "block";
+            menu.style.display = 'block';
         }
-    });
+    }
+
 </script>
 
 </html>

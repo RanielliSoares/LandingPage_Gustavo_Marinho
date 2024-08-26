@@ -5,7 +5,7 @@
 @import url("./styles/contato.css");
 @import url("./styles/rodape.css");
 
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap');
 :root{
     --cor-de-fundo:#EBECEE;
     --amarelo: #ffcb03;
@@ -17,11 +17,11 @@
     --cinza: #474646;
     --cinza-claro: #858585;
 
-    --fonte-principal: "Poppins";
+    --fonte-principal: "Roboto", sans-serif;
     --fonte-secundario: "Josefin Sans";
     
 }
 body{
     background-color: var(--cor-de-fundo);
-    
+    font-family: var(--fonte-principal);
 }
