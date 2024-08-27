@@ -55,3 +55,35 @@
 #menu ul li a:hover {
     background-color: #575757;
 }
+.menu__itens__vertical{
+    display: none;
+}
+@media screen and (min-width: 1024px) {
+
+    .menu-hamburguer{
+        display: none;
+    }
+    .cabecalho{
+        align-items: center;
+    }
+    .titulo__header {
+        color: var(--cor-de-fundo);
+        text-transform: uppercase;
+        margin-left: 1em;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .menu__itens__vertical{
+        display: flex;
+        margin: auto;
+    }
+    
+    .link_vertical{
+        color: var(--cor-de-fundo);
+        text-decoration: none;
+        padding: 10px;
+        
+        
+    }
+
+}

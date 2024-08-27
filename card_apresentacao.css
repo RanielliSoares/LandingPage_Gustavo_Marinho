@@ -1,0 +1,23 @@
+.container__card {
+    display: flex;
+    align-items: center;
+
+}
+
+.titulo__card{
+    text-align: center;
+    font-weight: 400;
+    border: 1px solid var(--azul-escuro);
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+}
+.image {
+    margin-right: 20px;
+    width: 50%;
+    max-width: 440px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+}
