@@ -51,6 +51,7 @@
 .lista__apresentacao {
     list-style-type: circle;
     list-style-position: inside;
+    margin: 10px;
 }
 
 .container__quemsou__respons {
@@ -59,13 +60,22 @@
 
 @media screen and (min-width: 1024px) {
     .container__quemsou__respons {
-        display: flex;
+        display: block;
         
     }
     .container__quemsou{
         display: none;
     }
-    .container__texto .item__apresentacao{
+    .container__texto{
         font-size: 24px;
+    }
+    .item__apresentacao{
+        font-size: 24px;
+    }
+    .lista__apresentacao{
+        margin-top: 20px;
+    }
+    .titulo__card{
+        font-size: 36px;
     }
 }

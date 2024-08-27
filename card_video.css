@@ -1,0 +1,17 @@
+.section__video{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--azul-escuro);
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.video{
+    width: 90%;
+    margin: auto;
+    max-width: 600px;
+    max-height: 600px;
+}
