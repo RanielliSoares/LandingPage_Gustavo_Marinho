@@ -7,10 +7,6 @@
     align-items: center;
 }
 
-.container__quemsou {
-    background-color: var(--azul-medio);
-    padding: 5px;
-}
 
 .titulo__card {
     text-align: center;
@@ -54,18 +50,9 @@
     margin: 10px;
 }
 
-.container__quemsou__respons {
-    display: none;
-}
 
 @media screen and (min-width: 1024px) {
-    .container__quemsou__respons {
-        display: block;
-        
-    }
-    .container__quemsou{
-        display: none;
-    }
+    
     .container__texto{
         font-size: 24px;
     }
